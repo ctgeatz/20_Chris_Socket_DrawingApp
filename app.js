@@ -13,7 +13,8 @@ var publicPath = path.join(__dirname, "public");
 var staticServer = express.static(publicPath);
 app.use(staticServer);
 
-var server = app.listen(8080);
+var portPath = process.env.PORT || 8080;
+var server = app.listen(portPath);
 var io = require("socket.io")(server);
 
 io.on("connection", function (socket) {
