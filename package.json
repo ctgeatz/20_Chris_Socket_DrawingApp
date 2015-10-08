@@ -1,0 +1,32 @@
+{
+  "name": "chris-socket-thing",
+  "version": "1.0.0",
+  "description": "draw together!",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node":"4.1.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctgeatz/20_Chris_Socket_DrawingApp.git"
+  },
+  "keywords": [
+    "sockets",
+    "drawing"
+  ],
+  "author": "Chris Geatz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctgeatz/20_Chris_Socket_DrawingApp/issues"
+  },
+  "homepage": "https://github.com/ctgeatz/20_Chris_Socket_DrawingApp#readme"
+}
